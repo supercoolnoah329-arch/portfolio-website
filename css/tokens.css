@@ -1,0 +1,12 @@
+:root {
+  --navy: #000080;
+  --gray: #c0c0c0;
+  --white: #ffffff;
+  --cyan: #00a2e8;
+  --green: #008000;
+  --ink: #101010;
+  --shadow: #404040;
+  --highlight: #f5f5f5;
+  --pixel: "Press Start 2P", monospace;
+  --terminal: "VT323", monospace;
+}

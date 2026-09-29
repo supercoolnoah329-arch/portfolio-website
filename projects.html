@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Projects built by Noah.">
+    <title>WeZePlay Portfolio — Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css"><link rel="stylesheet" href="css/tokens.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/main.css">
+    <script src="data/projects.js" defer></script><script src="js/main.js" defer></script><script src="js/projects.js" defer></script>
+  </head>
+  <body data-page="projects">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header"><a class="site-logo" href="index.html" aria-label="WeZePlay Portfolio home">WZP</a><nav aria-label="Primary navigation"><a href="index.html">Home</a><a href="projects.html">Projects</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></header>
+    <main id="main-content" class="site-shell">
+      <section class="window" aria-labelledby="projects-title">
+        <div class="title-bar"><h1 id="projects-title">My Projects</h1><span class="window-controls" aria-hidden="true">_ □ ×</span></div>
+        <div class="window-content">
+          <p class="lead">Things I’ve built, made, and want to share. Every project includes a link to its GitHub repository.</p>
+          <div class="filter-row" aria-label="Filter projects"><button class="button filter-button is-active" type="button" data-filter="all">All</button><button class="button filter-button" type="button" data-filter="website">Websites</button><button class="button filter-button" type="button" data-filter="app">Apps</button><button class="button filter-button" type="button" data-filter="game">Games</button><button class="button filter-button" type="button" data-filter="tool">Tools</button></div>
+          <div id="all-projects" class="project-grid" aria-live="polite"></div>
+        </div>
+        <div class="status-bar"><span id="project-count">Loading projects…</span></div>
+      </section>
+    </main>
+    <footer class="site-footer"><span>WeZePlay Portfolio</span><span>© <span data-current-year></span> Noah</span></footer>
+  </body>
+</html>

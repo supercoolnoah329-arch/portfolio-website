@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Noah's retro-inspired portfolio for projects and creative work.">
+    <title>WeZePlay Portfolio — Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="data/projects.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/projects.js" defer></script>
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <a class="site-logo" href="index.html" aria-label="WeZePlay Portfolio home">WZP</a>
+      <nav aria-label="Primary navigation">
+        <a href="index.html">Home</a><a href="projects.html">Projects</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main id="main-content" class="site-shell home-layout">
+      <section class="window welcome-window" aria-labelledby="welcome-title">
+        <div class="title-bar"><h1 id="welcome-title">Welcome.exe</h1><span class="window-controls" aria-hidden="true">_ □ ×</span></div>
+        <div class="window-content">
+          <p class="eyebrow">SYSTEM READY</p>
+          <p class="hero-title">Hi, I’m Noah.</p>
+          <p class="lead">Hi, I’m Noah. An aspiring YouTuber and builder. I make funny, high-energy videos and create projects I’m proud to share.</p>
+          <div class="button-row"><a class="button button-primary" href="projects.html">View My Projects</a><a class="button" href="about.html">About Me</a></div>
+        </div>
+        <div class="status-bar">Ready. Choose an option to continue.</div>
+      </section>
+
+      <section class="window" aria-labelledby="links-title">
+        <div class="title-bar"><h2 id="links-title">Quick Links</h2><span class="window-controls" aria-hidden="true">_ □ ×</span></div>
+        <div class="window-content quick-links">
+          <a class="link-row" href="https://github.com/supercoolnoah329-arch" target="_blank" rel="noopener">▣ GitHub profile <span aria-hidden="true">↗</span></a>
+          <a class="link-row" href="contact.html">✉ Contact and social links <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section class="window featured-window" aria-labelledby="featured-title">
+        <div class="title-bar"><h2 id="featured-title">Featured Projects</h2><span class="window-controls" aria-hidden="true">_ □ ×</span></div>
+        <div class="window-content"><div id="featured-projects" class="project-grid" aria-live="polite"></div></div>
+      </section>
+    </main>
+    <footer class="site-footer"><span>WeZePlay Portfolio</span><span>© <span data-current-year></span> Noah</span></footer>
+  </body>
+</html>
